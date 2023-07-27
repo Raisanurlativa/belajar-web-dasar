@@ -30,7 +30,7 @@ main {
 }
 
 .jumbotron {
-  background: url("../img/IMG_20210605_160201.jpg");
+  background: url("");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -117,9 +117,10 @@ ul li {
 
 .logo {
   display: inline-block;
-  width: 65%;
+  width: 20%;
   margin-top: 15px;
   margin-left: 20px;
+  background-size: 100%;
 }
 
 .nav-toggle {
@@ -236,5 +237,13 @@ ul li {
 
     .jur {
         flex: 0 1 calc(25% - 0px);
+    }
+    .font{
+      position: absolute;
+  top: 30px;
+  left:120px ;
+  cursor: pointer;
+  color: #030303a6;
+  font-size: 24px;
     }
 }
